@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Christina Kovalchuk](https://up.htmlacademy.ru/javascript/23/user/252001).
-* Наставник: `Неизвестно`.
+* Наставник: Максим Деев.
 
 ---
 
