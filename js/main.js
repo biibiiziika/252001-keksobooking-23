@@ -1,4 +1,5 @@
 // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+// https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 
 function getRandomIntNumber (min, max) {
   if (min < 0 || max < min ){
