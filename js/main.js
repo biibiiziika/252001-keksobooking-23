@@ -9,12 +9,8 @@ function getRandomIntNumber (min, max) {
 }
 
 function getRandomFloatNumber (min, max, decimalPlaces) {
-  if (min < 0 || max < min ){
-    min = 0;
-  }
-  return (Math.random() * (max - min + 1) + min).toFixed(decimalPlaces);
+  return getRandomIntNumber(min, max).toFixed(decimalPlaces);
 }
 
 getRandomIntNumber(1, 10);
 getRandomFloatNumber(1, 10, 5);
-
