@@ -47,7 +47,7 @@ function getRandomPositiveFloat (a, b, digits = 1) {
   return result.toFixed(digits);
 }
 
-const ADVERT_COUNT = 10;
+const ADVERTS_COUNT = 10;
 
 const PHOTOS = [
   'https://assets.htmlacademy.ru/content/intensive/javascript-1/keksobooking/duonguyen-8LrGtIxxa4w.jpg',
@@ -106,6 +106,6 @@ const createAdverts = (index) => ({
   },
 });
 
-const adverts = new Array(ADVERT_COUNT).fill(null).map(
+const adverts = new Array(ADVERTS_COUNT).fill(null).map(
   (value, index) => createAdverts(index + 1),
 );
